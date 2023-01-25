@@ -1,0 +1,24 @@
+.productostit{
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
+
+
+  .productos{
+    margin-top: 20px;
+    
+    
+  }
+
+  .card{
+    transition: all .3s;
+    gap: 5px
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+    background-color: #eabeb9;
+  }
+
+
+  

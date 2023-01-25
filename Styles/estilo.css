@@ -12,10 +12,10 @@
 }
 
 .navbar-nav {
-  gap: 5px;
-  background-color: black;
   display: flex;
   align-items: flex-end;
+  background-color: black;
+  gap: -10px;
 }
 
 .divisor {
@@ -148,7 +148,7 @@ span {
 
 .imagen3 {
   background-image: url(../img/SVG/monstruos.svg);
-  height: 550px;
+  height: 0px;
   background-repeat: no-repeat;
   margin-left: 200px;
   margin-top: 20px;
@@ -180,7 +180,6 @@ span {
   }
   .imagen3 {
     height: 250px;
-    margin-left: 50px;
   }
   .container-fluid-negro {
     margin-top: 100px;
@@ -195,10 +194,7 @@ span {
 }
 footer {
   background-color: darkslategray;
-  background-size: cover;
-  max-width: 100%;
-  height: 110px;
-  margin-bottom: 0px;
+  margin-bottom: -100px;
   margin-top: 30px;
 }
 
@@ -248,10 +244,117 @@ footer {
 
 @media only screen and (max-width: 575px) {
   footer {
-    height: 180px;
+    height: 160px;
     margin-top: 10px;
   }
   .iconos {
+    font-size: 25px;
     margin-top: 5px;
   }
+}
+.textosnosotros {
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+.nosotros h1 {
+  color: #5c8de2;
+  -webkit-animation-name: h1cambiodecolor;
+          animation-name: h1cambiodecolor;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@keyframes h1cambiodecolor {
+  25% {
+    color: #ED897D;
+  }
+  50% {
+    color: #4f4c49;
+  }
+  75% {
+    color: cadetblue;
+  }
+}
+.parrafo1 {
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: rgba(1, 1, 1, 0.5);
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transition: all 0.3s;
+}
+
+.carousel-inner:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.btn-gradient-4 {
+  margin-top: 20px;
+  width: 300px;
+  font-weight: 700;
+  color: black;
+  margin-left: 150px;
+  font-size: 30px;
+  padding: 10px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 60px;
+  border: 6px solid transparent;
+  border-spacing: 10px;
+}
+
+.productostit {
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+.productos {
+  margin-top: 20px;
+}
+
+.card {
+  transition: all 0.3s;
+  gap: 5px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: #eabeb9;
+}
+
+.embed-responsive {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.escribinos {
+  margin-top: 30px;
+  width: 80%;
+}
+
+.parrafo {
+  font-size: 22px;
+  text-align: center;
+}
+
+.contacto {
+  width: 80%;
 }/*# sourceMappingURL=estilo.css.map */

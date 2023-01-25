@@ -1,0 +1,69 @@
+
+  .textosnosotros{
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
+  
+  .nosotros h1{
+    color: #5c8de2;
+    animation-name: h1cambiodecolor;
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes h1cambiodecolor{
+    25% {
+      color: #ED897D;
+    }
+
+    50% {
+      color: #4f4c49;
+      
+    }
+
+    75%{
+      color: cadetblue;
+    }
+  }
+
+  .parrafo1{
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+
+
+  .carousel-caption{
+    background-color: rgba(1,1,1,0.5);
+    
+  }
+
+  .carousel-inner{
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all .3s;
+  }
+
+  .carousel-inner:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .btn-gradient-4{
+    margin-top: 20px;
+    width: 300px;
+    font-weight: 700;
+    color: black;
+    margin-left: 150px;
+    
+    font-size: 30px;
+    padding:10px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+                linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 60px;
+    border: 6px solid transparent;
+    border-spacing: 10px;
+}
