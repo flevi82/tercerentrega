@@ -6,23 +6,22 @@
   font-family: "Signika Negative", sans-serif;
 }
 
-header {
-  overflow-x: hidden;
-}
-
 .navbar {
   background-color: black;
-  height: 45px;
+  height: 55px;
 }
 
 .navbar-nav {
-  gap: 15px;
+  gap: 5px;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
 }
 
 .divisor {
-  background-image: url(/img/SVG/barra.svg);
+  background-image: url(../img/SVG/barra.svg);
   height: 300px;
-  width: 1700px;
+  width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: -90px;
