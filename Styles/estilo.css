@@ -78,6 +78,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 span {
   font-weight: 700;
 }
@@ -89,11 +93,9 @@ span {
 }
 
 .container-fluid-negro2 {
-  margin-top: 400px;
+  margin-top: 200px;
   background-color: black;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 800px;
 }
 
 .container-fluid-blanco {
@@ -131,9 +133,25 @@ span {
 
 .imagen {
   background-image: url(../img/SVG/gourmet.svg);
-  height: 500px;
+  height: 650px;
+  width: auto;
   background-repeat: no-repeat;
-  background-size: cover;
+  margin-top: 20px;
+}
+
+.imagen2 {
+  background-image: url(../img/SVG/mudanza\ caja.svg);
+  height: 650px;
+  background-repeat: no-repeat;
+  margin-left: 300px;
+}
+
+.imagen3 {
+  background-image: url(../img/SVG/monstruos.svg);
+  height: 550px;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-top: 20px;
 }
 
 .row-txt {
@@ -154,6 +172,15 @@ span {
   }
   .imagen {
     height: 250px;
+  }
+  .imagen2 {
+    margin-top: 10px;
+    height: 500px;
+    margin-left: 0px;
+  }
+  .imagen3 {
+    height: 250px;
+    margin-left: 50px;
   }
   .container-fluid-negro {
     margin-top: 100px;
