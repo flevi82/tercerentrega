@@ -1,7 +1,7 @@
 
   .textosnosotros{
-    margin-top: -50px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
   
   .nosotros h1{
@@ -29,13 +29,31 @@
     }
   }
 
+  .nossub{
+    font-size:30px;
+    
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
   .parrafo1{
+    color: $tituloblanco;
     font-size: 22px;
     margin-top: 20px;
     text-align: center;
   }
 
+  .parrafo2{
+    color: $titulonegro;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+  }
 
+  .nosotros{
+    background-color: $titulonegro;
+    padding: 40px;
+  }
 
   .carousel-caption{
     background-color: rgba(1,1,1,0.5);
@@ -43,27 +61,49 @@
   }
 
   .carousel-inner{
+    background-color: $tituloblanco;
     border-radius: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     transition: all .3s;
   }
 
   .carousel-inner:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
   }
 
   .btn-gradient-4{
     margin-top: 20px;
     width: 300px;
     font-weight: 700;
-    color: black;
-    margin-left: 150px;
-    
+    color: $tituloblanco;
     font-size: 30px;
-    padding:10px;
-    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+    padding:5px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
                 linear-gradient(to right, darkblue, darkorchid) border-box;
     border-radius: 60px;
     border: 6px solid transparent;
-    border-spacing: 10px;
+    border-spacing: 5px;
+
+    .imagen4{
+      background-color: #5c8de2;
+      
+      
+      
+      margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+
+  .textosnosotros{
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  .nossub{
+    font-size:20px;
+    margin-bottom: 80px;
+  }
+
 }

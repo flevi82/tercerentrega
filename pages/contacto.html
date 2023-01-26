@@ -12,18 +12,19 @@
 <body>
    <!-- inicio de navbar -->
       
-   <nav class="navbar navbar-expand-sm navbar-dark">
+   <nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
     <a class="navbar-brand" href="../index.html">
-      <img src="../img/SVG/logoblanco.svg"  height="25" class="d-inline-block align-top" alt="logo">
+      <img src="../img/SVG/logoblanco.svg"  height="25" alt="logo">
     </a>
 <!-- Toggler/collapsibe Button -->
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 <span class="navbar-toggler-icon"></span>
 </button>
 
+
 <!-- Navbar links -->
 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-  <ul class="navbar-nav ml-auto">
+  <ul class="navbar-nav ml-auto text-center">
     <li class="nav-item">
       <a class="nav-link" href="../index.html">Home</a>
     </li>
@@ -49,44 +50,42 @@
 
 <div class="productostit"><h1>Contacto</h1></div>
 
-<section>
-
-    <div class="col justify-content-center">
-        <p class="parrafo">Dejanos tu mensaje y responderemos muy muy rápido.</p>
-      </div>
 
 
-    <div class="container">
-
-        <form class="contacto" >
-            <div class="container">
-            <div class="row ">
-                
-                
-            <div class="col">
-            <div class="form-group justify-content-center">
-              <label for="exampleInputEmail1">Email</label>
+  <section class="contacto">
+    <div class="container-fluid">
+           
+      <div class="row align-items-center">
+        <div class="col-sm-8 bg-white p-2" data-aos="fade-up" data-aos-duration="1000">
+          <form>
+            <div class="form-group">
+              <label for="comment">Tu nombre</label>
+              <textarea class="form-control" rows="1" id="comment"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Tu mail</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <small id="emailHelp" class="form-text text-muted">Jamás compartiremos tus datos.</small>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Tu consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-              </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">¿Querés recibir nuestras novedades?</label>
+              <label for="comment">Tu consulta</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+           
+            <button class="btn-gradient-5">Enviar formulario</button>
           </form>
+         </div>
+        <div class="col-sm-4"  data-aos="fade-up" data-aos-duration="1200">
+          
+          <div class="parrafo3">
+          <h3>Escribinos y te responderemos muy muy muy rápido.</h3>
+          
+        </div>
+      </div>
         
-    </div>
-    
-    
-    </div>
-    </div>
-    </div>  
-   </section>
+       </div>
+      </div>
+  </section>
 
 
 

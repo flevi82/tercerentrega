@@ -7,15 +7,7 @@
 }
 
 .navbar {
-  background-color: black;
-  height: 55px;
-}
-
-.navbar-nav {
-  display: flex;
-  align-items: flex-end;
-  background-color: black;
-  gap: -10px;
+  background-color: black !important;
 }
 
 .divisor {
@@ -148,7 +140,7 @@ span {
 
 .imagen3 {
   background-image: url(../img/SVG/monstruos.svg);
-  height: 0px;
+  height: 550px;
   background-repeat: no-repeat;
   margin-left: 200px;
   margin-top: 20px;
@@ -170,6 +162,9 @@ span {
   h1 {
     margin-top: -30px;
   }
+  h2 {
+    font-size: 30px;
+  }
   .imagen {
     height: 250px;
   }
@@ -179,7 +174,8 @@ span {
     margin-left: 0px;
   }
   .imagen3 {
-    height: 250px;
+    height: 400px;
+    margin-left: 0px;
   }
   .container-fluid-negro {
     margin-top: 100px;
@@ -193,14 +189,14 @@ span {
   }
 }
 footer {
-  background-color: darkslategray;
+  background-color: rgb(0, 0, 0);
   margin-bottom: -100px;
   margin-top: 30px;
 }
 
 .iconos {
   display: flex;
-  font-size: 40px;
+  font-size: 30px;
   height: 50%;
   gap: 40px;
   margin-top: 30px;
@@ -253,8 +249,8 @@ footer {
   }
 }
 .textosnosotros {
-  margin-top: -50px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .nosotros h1 {
@@ -284,10 +280,29 @@ footer {
     color: cadetblue;
   }
 }
+.nossub {
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 .parrafo1 {
+  color: white;
   font-size: 22px;
   margin-top: 20px;
   text-align: center;
+}
+
+.parrafo2 {
+  color: black;
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nosotros {
+  background-color: black;
+  padding: 40px;
 }
 
 .carousel-caption {
@@ -295,29 +310,44 @@ footer {
 }
 
 .carousel-inner {
+  background-color: white;
   border-radius: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   transition: all 0.3s;
 }
 
 .carousel-inner:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
 }
 
 .btn-gradient-4 {
   margin-top: 20px;
   width: 300px;
   font-weight: 700;
-  color: black;
-  margin-left: 150px;
+  color: white;
   font-size: 30px;
-  padding: 10px;
-  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
+  padding: 5px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
   border-radius: 60px;
   border: 6px solid transparent;
-  border-spacing: 10px;
+  border-spacing: 5px;
+}
+.btn-gradient-4 .imagen4 {
+  background-color: #5c8de2;
+  margin-top: 20px;
 }
 
+@media only screen and (max-width: 575px) {
+  .textosnosotros {
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  .nossub {
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+}
 .productostit {
   margin-top: -50px;
   margin-bottom: 100px;
@@ -345,16 +375,33 @@ footer {
   width: 80%;
 }
 
-.escribinos {
-  margin-top: 30px;
-  width: 80%;
+@media only screen and (max-width: 575px) {
+  .productostit {
+    margin-bottom: 0px;
+  }
 }
-
-.parrafo {
-  font-size: 22px;
-  text-align: center;
-}
-
 .contacto {
-  width: 80%;
+  background-color: black !important;
+  margin-bottom: 50px;
+}
+
+.btn-gradient-5 {
+  margin-top: 20px;
+  font-weight: 700;
+  width: 200px;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 60px;
+  border: 6px solid transparent;
+  border-spacing: 10px;
+}
+
+.parrafo3 {
+  color: white;
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
 }/*# sourceMappingURL=estilo.css.map */
