@@ -1,10 +1,19 @@
+.videos{
+  overflow-x: hidden; 
+}
 
+.espacio{
+  height: 20px;
+}
 
-.embed-responsive{
+.embed-responsive-item{
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
     margin: auto;
+    height: 550px;
     width: 80%;
     
   }
@@ -12,6 +21,12 @@
   @media only screen and (max-width: 575px){
     .productostit {
         margin-bottom: 0px;  
-   } 
+   }
+   
+   .embed-responsive-item{
+    height: 300px;
+    width: 90%;
   } 
+} 
+  
 
