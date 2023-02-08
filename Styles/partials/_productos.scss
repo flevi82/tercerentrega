@@ -10,9 +10,14 @@
     
   }
 
+  .card-group{
+    margin: 10px;
+    gap: 10px;
+  }
+
   .card{
     transition: all .3s;
-    gap: 5px
+    gap: 15px
   }
 
   .card:hover{
